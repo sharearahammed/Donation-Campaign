@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/7KwMkHg/Education.jpg",
+    "category": "Education",
+    "title": "Books for Underprivileged Children",
+    "price": "$25",
+    "background_color": "#FFD700",
+    "text_color": "#000000",
+    "button_background_color": "#FF4500",
+    "description": "Provide educational books to children in underprivileged communities to support their learning and development."
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/BByhXkW/Health.jpg",
+    "category": "Healthcare",
+    "title": "Medical Supplies for Disaster Relief",
+    "price": "$50",
+    "background_color": "#FFA07A",
+    "text_color": "#800000",
+    "button_background_color": "#4682B4",
+    "description": "Supply medical supplies and equipment to areas affected by disasters to aid in emergency healthcare."
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/hCPwMrW/Food.jpg",
+    "category": "Environment",
+    "title": "Planting Trees Initiative",
+    "price": "$10",
+    "background_color": "#90EE90",
+    "text_color": "#006400",
+    "button_background_color": "#008000",
+    "description": "Support reforestation efforts by funding tree planting initiatives to combat deforestation and promote a healthier environment."
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/rf5Cfk6/Clothing.jpg",
+    "category": "Animal Welfare",
+    "title": "Support Shelter Animals",
+    "price": "$20",
+    "background_color": "#ADD8E6",
+    "text_color": "#000080",
+    "button_background_color": "#FF8C00",
+    "description": "Provide food, shelter, and medical care for animals in shelters, helping them find loving homes and improving their well-being."
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/hCPwMrW/Food.jpg",
+    "category": "Hunger Relief",
+    "title": "Provide Meals for the Homeless",
+    "price": "$15",
+    "background_color": "#FFB6C1",
+    "text_color": "#8B008B",
+    "button_background_color": "#0000CD",
+    "description": "Offer nutritious meals to homeless individuals and families, ensuring they have access to food and support."
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/7KwMkHg/Education.jpg",
+    "category": "Child Welfare",
+    "title": "Support Foster Care Programs",
+    "price": "$30",
+    "background_color": "#FFDAB9",
+    "text_color": "#8B4513",
+    "button_background_color": "#00FFFF",
+    "description": "Assist foster care programs by providing resources and support to children in need of safe and loving homes."
+  },
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/7KwMkHg/Education.jpg",
+    "category": "Education",
+    "title": "Laptops for Remote Learning",
+    "price": "$300",
+    "background_color": "#FFE4B5",
+    "text_color": "#A52A2A",
+    "button_background_color": "#FFD700",
+    "description": "Supply laptops to students in underserved areas to facilitate remote learning and access to educational resources."
+  },
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/BByhXkW/Health.jpg",
+    "category": "Healthcare",
+    "title": "Vaccines for Developing Countries",
+    "price": "$100",
+    "background_color": "#98FB98",
+    "text_color": "#228B22",
+    "button_background_color": "#20B2AA",
+    "description": "Provide vaccines to developing countries to prevent the spread of infectious diseases and improve public health."
+  },
+  {
+    "id": 9,
+    "picture": "https://i.ibb.co/hCPwMrW/Food.jpg",
+    "category": "Environment",
+    "title": "Clean Water Access Project",
+    "price": "$50",
+    "background_color": "#F0E68C",
+    "text_color": "#8B4513",
+    "button_background_color": "#FFA500",
+    "description": "Support projects that provide clean and safe drinking water to communities in need, improving health and sanitation."
+  },
+  {
+    "id": 10,
+    "picture": "https://i.ibb.co/rf5Cfk6/Clothing.jpg",
+    "category": "Animal Welfare",
+    "title": "Rescue and Rehabilitation of Wildlife",
+    "price": "$40",
+    "background_color": "#FFDEAD",
+    "text_color": "#B22222",
+    "button_background_color": "#B0E0E6",
+    "description": "Rescue and rehabilitate wildlife species affected by habitat loss, poaching, and environmental threats to ensure their survival."
+  },
+  {
+    "id": 11,
+    "picture": "https://i.ibb.co/hCPwMrW/Food.jpg",
+    "category": "Hunger Relief",
+    "title": "Emergency Food Aid",
+    "price": "$20",
+    "background_color": "#FFC0CB",
+    "text_color": "#4B0082",
+    "button_background_color": "#32CD32",
+    "description": "Provide emergency food aid to individuals and families facing hunger crises due to disasters, conflict, or economic hardship."
+  },
+  {
+    "id": 12,
+    "picture": "https://i.ibb.co/7KwMkHg/Education.jpg",
+    "category": "Child Welfare",
+    "title": "Support Orphanages",
+    "price": "$50",
+    "background_color": "#D8BFD8",
+    "text_color": "#800080",
+    "button_background_color": "#FF1493",
+    "description": "Support orphanages and children's homes by providing essentials, education, and care for orphaned and vulnerable children."
+  }
+]
