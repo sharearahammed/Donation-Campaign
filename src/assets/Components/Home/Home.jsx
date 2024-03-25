@@ -4,7 +4,7 @@ import CategoryList from "../CategoryList/CategoryList";
 import Hook from "../Hook/Hook";
 
 const Home = () => {
-    const {data} = Hook();
+    const {data , loading} = Hook();
     const [value , setValue] = useState("");
     const [filteredData , setFilteredData] = useState([]);
 
@@ -25,8 +25,10 @@ const Home = () => {
     return (
         <div>
             <Banner setValue={setValue}
+            value={value}
             handleSearch={handleSearch}></Banner>
-            <CategoryList filteredData={filteredData}></CategoryList>
+            <CategoryList filteredData={filteredData}
+            loading={loading}></CategoryList>
         </div>
     );
 };

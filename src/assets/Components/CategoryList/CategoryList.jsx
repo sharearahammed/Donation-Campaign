@@ -1,8 +1,13 @@
 /* eslint-disable react/prop-types */
 // import Hook from "../Hook/Hook";
+import CustomSpinner from "../CustomSpinner/CustomSpinner";
 import Category from "./Category";
 
-const CategoryList = ({filteredData}) => {
+const CategoryList = ({loading,filteredData}) => {
+
+    if(loading){
+        return <CustomSpinner></CustomSpinner>;
+    }
     
     // console.log(data,loading)
     return (

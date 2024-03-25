@@ -3,8 +3,10 @@ import DonationCart from "./DonationCart";
 import { getStoredDonation } from "../Utilities/Utilities";
 import { useLoaderData } from "react-router-dom";
 
-const Donation = () => {
-    const datas = useLoaderData();
+
+const Donation = () => {   
+
+    const data = useLoaderData();
   const [viewDonation , setDonation] = useState([]);
   const[length , setLength] = useState(false);
   const handleClick = () =>{
@@ -14,19 +16,20 @@ const Donation = () => {
 
 useEffect(()=>{
     const storedDonation = getStoredDonation();
-    if(datas.length > 0){
+    if(data.length > 0){
         const newCart = [];
         for(const id of storedDonation){
-            const DonateCarts = datas.find(data=> data.id === id);
+            const DonateCarts = data.find((item)=> item.id === id);
             newCart.push(DonateCarts)
         }
         setDonation(newCart);
     }
-},[datas])
+},[data])
 
 if(viewDonation.length == 0){
     return <p>No data found</p>
 }
+
  
   return (
     <>
